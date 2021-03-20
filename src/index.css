@@ -1,13 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700;800&display=swap');
+
 html, body {
     background-color: #21232A;
     color: white;
-    font-family: Helvetica, Arial , sans-serif;
+    font-family: 'Libre Franklin', Helvetica, Arial , sans-serif;
     font-size: 1.3rem;
     padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
     font-size: 1.3rem;
     margin-right: 10px;
     padding: 10px;
+    background-color: white;
+    border: 4.0489px solid black;
+    border-radius: 15px;
+    font-family: 'Libre Franklin';
+}
+button:last-child {
+    margin-right: 0px;
+}
+p {
+    font-size: 3em;
+}
+.littleText {
+    font-size: 0.6em;
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    margin: 0px;
+    font-size:3em
+
+}
+.contador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #4d86f1 0%, rgb(222, 77, 241) 100%);
+  width: 500px;
 }
