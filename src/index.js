@@ -6,4 +6,4 @@ import Contador from './components/contador';
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<Contador name="Cristian Medina" />, divRoot);
+ReactDOM.render(<Contador name="Cristian Medina" inicial={0}/>, divRoot);
