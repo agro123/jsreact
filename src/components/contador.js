@@ -1,6 +1,6 @@
 import React, {useState} from 'react' ;
 import propTypes from 'prop-types';
-
+//Cristian Medina
 const Contador = ({name, inicial}) => {
     const num =   inicial? inicial : 0;
     const n = name? name : "Nadie";
