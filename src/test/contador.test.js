@@ -30,7 +30,7 @@ describe('Prueba de botones',()=>{
     let randomInt = Math.floor(Math.random() * (100 - -100)) + -100;
     const wrapper = shallow(<Contador name="Cristian" inicial={randomInt} />);
     const click = (numB) => wrapper.find('button').at(numB).simulate('click');
-    const result = () => parseInt(wrapper.find('p').text().trim());
+    const result = () => parseInt(wrapper.find('p').at(1).text().trim());
  
     test('Simular click boton suma',() => {
         click(0);
